@@ -1,16 +1,67 @@
-# React + Vite
+# 🛍 ShopSphere – Dynamic eCommerce Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopSphere is a responsive eCommerce product page built using React (Vite). It demonstrates dynamic product rendering, variant switching, image carousel, cart functionality, and a modern UI similar to real online shopping platforms.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://your-username.github.io/your-repo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Dynamic product data using mock API (simulated fetch)
+- Product variants (Black / White / Blue)
+  - Changes images dynamically
+  - Updates price dynamically
+  - Updates stock availability dynamically
+- Image carousel with thumbnail selection
+- Hover zoom effect on product image
+- Customer reviews section with:
+  - Profile images
+  - Names
+  - Ratings
+  - Comments
+- Add to Cart functionality with quantity control
+- Loading state before data loads
 
-## React Compiler
+## 📱 Responsive Design
+- Fully responsive layout for all screen sizes
+- Clean eCommerce-style product layout
+- Flexible grid-based structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- Inline CSS styling
+- Mock API (Promise-based simulation)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+src/
+├── assets/
+├── pages/
+│   └── ProductPage.jsx
+├── components/
+│   └── Navbar.jsx
+├── App.jsx
+└── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup Instructions
+
+Install dependencies:
+npm install
+
+Run project:
+npm run dev
+
+## 📦 Build & Deploy
+
+Build:
+npm run build
+
+Deploy to GitHub Pages:
+npm run deploy
+
+## 🙌 Author
+Kashif Ahmad
+Frontend Development Internship Project  
+Built using React, focusing on dynamic UI, state management, and responsive design.
+
+## 📌 Note
+This project is a frontend implementation of a real-world eCommerce product page for internship submission purposes.
