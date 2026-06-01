@@ -1,63 +1,68 @@
 # 🛍 ShopSphere – Dynamic eCommerce Product Page
 
-A modern and responsive **eCommerce product page built using React (Vite)**.  
-This project demonstrates dynamic product rendering, variant selection, image carousel, cart functionality, and realistic UI design.
-
----
+ShopSphere is a responsive eCommerce product page built using React (Vite). It demonstrates dynamic product rendering, variant switching, image carousel, cart functionality, and a modern UI similar to real online shopping platforms.
 
 ## 🚀 Live Demo
 https://your-username.github.io/your-repo
 
----
-
 ## ✨ Features
-
-### 📦 Dynamic Product Data
-- Product name, description, price, and availability loaded dynamically using mock API (simulated fetch)
-
-### 🎨 Product Variants
-- Color-based product switching (Black / White / Blue)
-- Updates dynamically:
-  - Product images  
-  - Price  
-  - Stock availability  
-
-### 🖼 Image Gallery
-- Multiple product images per variant  
-- Thumbnail-based carousel  
-- Hover zoom effect on main image  
-
-### ⭐ Customer Reviews
-- Realistic review cards  
-- Includes:
-  - User name  
-  - Profile picture  
-  - Star rating  
-  - Review text  
-
-### 🛒 Cart System
-- Add to cart functionality  
-- Quantity-based updates using state management  
-
-### 🔄 Dynamic Behavior
-- Loading state while fetching product data  
-- Fully reactive UI using React hooks (useState, useEffect)
-
----
+- Dynamic product data using mock API (simulated fetch)
+- Product variants (Black / White / Blue)
+  - Changes images dynamically
+  - Updates price dynamically
+  - Updates stock availability dynamically
+- Image carousel with thumbnail selection
+- Hover zoom effect on product image
+- Customer reviews section with:
+  - Profile images
+  - Names
+  - Ratings
+  - Comments
+- Add to Cart functionality with quantity control
+- Loading state before data loads
 
 ## 📱 Responsive Design
-- Mobile-friendly layout  
-- Clean eCommerce-style grid  
-- Adaptive product image + details layout  
-
----
+- Fully responsive layout for all screen sizes
+- Clean eCommerce-style product layout
+- Flexible grid-based structure
 
 ## 🛠 Tech Stack
 - React (Vite)
 - JavaScript (ES6+)
 - Inline CSS styling
-- Mock API using Promises
+- Mock API (Promise-based simulation)
 
----
+## 📂 Project Structure
+src/
+├── assets/
+├── pages/
+│   └── ProductPage.jsx
+├── components/
+│   └── Navbar.jsx
+├── App.jsx
+└── main.jsx
+
+## ⚙️ Setup Instructions
+
+Install dependencies:
+npm install
+
+Run project:
+npm run dev
+
+## 📦 Build & Deploy
+
+Build:
+npm run build
+
+Deploy to GitHub Pages:
+npm run deploy
+
+## 🙌 Author
+Frontend Development Internship Project  
+Built using React, focusing on dynamic UI, state management, and responsive design.
+
+## 📌 Note
+This project is a frontend implementation of a real-world eCommerce product page for internship submission purposes.
 
 ## 📂 Project Structure
