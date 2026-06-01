@@ -65,4 +65,4 @@ Built using React, focusing on dynamic UI, state management, and responsive desi
 ## 📌 Note
 This project is a frontend implementation of a real-world eCommerce product page for internship submission purposes.
 
-## 📂 Project Structure
+
