@@ -6,7 +6,7 @@ function Navbar({ cartCount }) {
       <div style={styles.left}>
         <div style={styles.logo}>ShopSphere</div>
 
-        <div style={{ display: "flex", gap: "15px" }}>
+        <div style={styles.menu}>
   <a href="#">Home</a>
   <a href="#">Products</a>
   <a href="#">Contact</a>
@@ -57,6 +57,11 @@ const styles = {
   cart: {
     fontWeight: "bold",
   },
+  menu: {
+  display: "flex",
+  gap: "20px",
+  alignItems: "center",
+},
 };
 
 export default Navbar;
