@@ -44,21 +44,18 @@ const styles = {
   },
 
   links: {
-    link: {
+  display: "flex",
+    gap: "18px",
+  },
+
+  link: {
   textDecoration: "none",
   color: "#fff",
   fontWeight: "500",
   padding: "6px 10px",
   borderRadius: "6px",
   transition: "0.2s",
-}
-  },
-
-  link: {
-    color: "#fff",
-    textDecoration: "none",
-    fontSize: "14px",
-  },
+},
 
   cart: {
     fontWeight: "bold",
