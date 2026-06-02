@@ -36,6 +36,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     gap: "30px",
+    flexWrap: "wrap",
   },
 
   logo: {
