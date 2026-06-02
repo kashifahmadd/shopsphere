@@ -13,24 +13,24 @@ function fetchProduct() {
             price: 199,
             stock: "In Stock",
             images: [
-              "src/assets/black1.jpg",
-              "src/assets/black2.avif",
+              "/assets/black1.jpg",
+              "/assets/black2.avif",
             ],
           },
           White: {
             price: 209,
             stock: "Limited Stock",
             images: [
-              "src/assets/white1.avif",
-              "src/assets/white2.avif",
+              "/assets/white1.avif",
+              "/assets/white2.avif",
             ],
           },
           Blue: {
             price: 219,
             stock: "Limited Stock",
             images: [
-              "src/assets/blue1.avif",
-              "src/assets/blue2.png",
+              "/assets/blue1.avif",
+              "/assets/blue2.png",
             ],
           },
         },
