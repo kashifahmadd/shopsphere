@@ -25,13 +25,12 @@ function Navbar({ cartCount }) {
 
 const styles = {
   navbar: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "15px 30px",
-    background: "#111",
-    color: "#fff",
-  },
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  flexWrap: "wrap",
+  gap: "10px",
+},
 
   left: {
     display: "flex",
