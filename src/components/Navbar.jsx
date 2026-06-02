@@ -50,7 +50,7 @@ const styles = {
 
   link: {
   textDecoration: "none",
-  color: "#fff",
+  color: "#080808",
   fontWeight: "500",
   padding: "6px 10px",
   borderRadius: "6px",
