@@ -6,12 +6,11 @@ function Navbar({ cartCount }) {
       <div style={styles.left}>
         <div style={styles.logo}>ShopSphere</div>
 
-        <nav style={styles.links}>
-          <a href="#" style={styles.link}>Home</a>
-          <a href="#" style={styles.link}>Shop</a>
-          <a href="#" style={styles.link}>About</a>
-          <a href="#" style={styles.link}>Contact</a>
-        </nav>
+        <div style={{ display: "flex", gap: "15px" }}>
+  <a href="#">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Contact</a>
+</div>
       </div>
 
       {/* RIGHT SIDE */}
