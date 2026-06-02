@@ -7,9 +7,9 @@ function Navbar({ cartCount }) {
         <div style={styles.logo}>ShopSphere</div>
 
         <div style={styles.menu}>
-  <a href="#">Home</a>
-  <a href="#">Products</a>
-  <a href="#">Contact</a>
+  <a href="#" style={styles.link}>Home</a>
+<a href="#" style={styles.link}>Products</a>
+<a href="#" style={styles.link}>Contact</a>
 </div>
       </div>
 
@@ -44,8 +44,14 @@ const styles = {
   },
 
   links: {
-    display: "flex",
-    gap: "18px",
+    link: {
+  textDecoration: "none",
+  color: "#fff",
+  fontWeight: "500",
+  padding: "6px 10px",
+  borderRadius: "6px",
+  transition: "0.2s",
+}
   },
 
   link: {
